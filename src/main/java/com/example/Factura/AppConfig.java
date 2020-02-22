@@ -25,7 +25,7 @@ public class AppConfig {
     @Bean
     @Primary
     public List<ItemFactura> itemFacturaOficina(){
-        Producto producto = new Producto("Monitor Asus",800000);
+        Producto producto = new Producto("Monitor LG",800000);
         Producto producto1 = new Producto("Telefono Oficina",300000);
         Producto producto2 = new Producto("Impresora Multifuncional",150000);
         Producto producto3 = new Producto("Escritorio de oficina",750000);
